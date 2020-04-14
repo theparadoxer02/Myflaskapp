@@ -10,6 +10,7 @@ posts=[
 def home():
     return render_template("xyz.html")
 
+
 @app.route("/about")
 def about():
     return render_template('xyz.html')
